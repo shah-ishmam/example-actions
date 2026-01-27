@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Display Hello World Message
-        run: "Echo, hello world....."
+        run: echo "hello world....."
   
       - name: Another Task
-        run: "Echo, another hello world....."
+        run: echo "another hello world....."
